@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  jupyter:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - D:/Pascal/projets/ml_geology/ml30:/mnt/ml30
